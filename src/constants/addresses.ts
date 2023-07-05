@@ -26,11 +26,11 @@ const CELO_TICK_LENS_ADDRESSES = '0x5f115D9113F88e0a0Db1b5033D90D4a9690AcD3D'
 export const V3_CORE_FACTORY_ADDRESSES: AddressMap = {
   ...constructSameAddressMap(V3_FACTORY_ADDRESS, [
     SupportedChainId.OPTIMISM,
-    SupportedChainId.OPTIMISM_GOERLI,
-    SupportedChainId.ARBITRUM_ONE,
-    SupportedChainId.ARBITRUM_RINKEBY,
-    SupportedChainId.POLYGON_MUMBAI,
-    SupportedChainId.POLYGON,
+
+
+
+    
+    
   ]),
   [SupportedChainId.CELO]: CELO_V3_CORE_FACTORY_ADDRESSES,
   [SupportedChainId.CELO_ALFAJORES]: CELO_V3_CORE_FACTORY_ADDRESSES,
@@ -38,10 +38,10 @@ export const V3_CORE_FACTORY_ADDRESSES: AddressMap = {
 
 export const V3_MIGRATOR_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0xA5644E29708357803b5A882D272c41cC0dF92B34', [
-    SupportedChainId.ARBITRUM_ONE,
-    SupportedChainId.ARBITRUM_RINKEBY,
-    SupportedChainId.POLYGON_MUMBAI,
-    SupportedChainId.POLYGON,
+
+
+    
+    
   ]),
   [SupportedChainId.CELO]: CELO_V3_MIGRATOR_ADDRESSES,
   [SupportedChainId.CELO_ALFAJORES]: CELO_V3_MIGRATOR_ADDRESSES,
@@ -49,10 +49,10 @@ export const V3_MIGRATOR_ADDRESSES: AddressMap = {
 
 export const MULTICALL_ADDRESS: AddressMap = {
   ...constructSameAddressMap('0x1F98415757620B543A52E61c46B32eB19261F984', [
-    SupportedChainId.OPTIMISM_GOERLI,
+
     SupportedChainId.OPTIMISM,
-    SupportedChainId.POLYGON_MUMBAI,
-    SupportedChainId.POLYGON,
+    
+    
   ]),
   [SupportedChainId.ARBITRUM_ONE]: '0xadF885960B47eA2CD9B55E6DAc6B42b7Cb2806dB',
   [SupportedChainId.ARBITRUM_RINKEBY]: '0xa501c031958F579dB7676fF1CE78AD305794d579',
@@ -63,11 +63,11 @@ export const MULTICALL_ADDRESS: AddressMap = {
 export const SWAP_ROUTER_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45', [
     SupportedChainId.OPTIMISM,
-    SupportedChainId.OPTIMISM_GOERLI,
-    SupportedChainId.ARBITRUM_ONE,
-    SupportedChainId.ARBITRUM_RINKEBY,
-    SupportedChainId.POLYGON,
-    SupportedChainId.POLYGON_MUMBAI,
+
+
+
+    
+    
   ]),
   [SupportedChainId.CELO]: CELO_ROUTER_ADDRESS,
   [SupportedChainId.CELO_ALFAJORES]: CELO_ROUTER_ADDRESS,
@@ -105,11 +105,11 @@ export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
 export const QUOTER_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6', [
     SupportedChainId.OPTIMISM,
-    SupportedChainId.OPTIMISM_GOERLI,
-    SupportedChainId.ARBITRUM_ONE,
-    SupportedChainId.ARBITRUM_RINKEBY,
-    SupportedChainId.POLYGON_MUMBAI,
-    SupportedChainId.POLYGON,
+
+
+
+    
+    
   ]),
   [SupportedChainId.CELO]: CELO_QUOTER_ADDRESSES,
   [SupportedChainId.CELO_ALFAJORES]: CELO_QUOTER_ADDRESSES,
@@ -118,11 +118,11 @@ export const QUOTER_ADDRESSES: AddressMap = {
 export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0xC36442b4a4522E871399CD717aBDD847Ab11FE88', [
     SupportedChainId.OPTIMISM,
-    SupportedChainId.OPTIMISM_GOERLI,
-    SupportedChainId.ARBITRUM_ONE,
-    SupportedChainId.ARBITRUM_RINKEBY,
-    SupportedChainId.POLYGON_MUMBAI,
-    SupportedChainId.POLYGON,
+
+
+
+    
+    
   ]),
   [SupportedChainId.CELO]: CELO_NONFUNGIBLE_POSITION_MANAGER_ADDRESSES,
   [SupportedChainId.CELO_ALFAJORES]: CELO_NONFUNGIBLE_POSITION_MANAGER_ADDRESSES,
